@@ -1,9 +1,11 @@
 import express from "express";
 import jsonwebtoken from "jsonwebtoken";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 app.use(express.json());
-const JWT_SECRET = "jsdjgajopirea3iett903q6irojou84u5jeri05jr"; 
+const JWT_SECRET = process.env.JWT_SECRET
 const users = [];
 // function generateTkoen() {
 //   const options = [
