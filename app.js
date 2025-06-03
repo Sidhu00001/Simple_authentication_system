@@ -3,7 +3,7 @@ import jsonwebtoken from "jsonwebtoken";
 
 const app = express();
 app.use(express.json());
-const JWT_SECRET = "siddharthchauhan123"; 
+const JWT_SECRET = "jsdjgajopirea3iett903q6irojou84u5jeri05jr"; 
 const users = [];
 // function generateTkoen() {
 //   const options = [
